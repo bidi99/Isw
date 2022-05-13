@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MediuDeInvatare">
+
+
+    <TextView
+        android:id="@+id/Title_Teorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Mediu de invatare"
+        android:textColor="@color/green"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <Button
+        android:id="@+id/btnAdunare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Title_Teorie"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/black"
+        android:background="@drawable/btnround"
+        app:backgroundTint="@color/adunare"
+        android:text="Capitolul 1: Adunarea"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+
+    <Button
+        android:id="@+id/btnScadere"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnAdunare"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnround"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/scadere"
+        android:text="Capitolul 2: Scaderea"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+
+    <Button
+        android:id="@+id/btnInmultire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnScadere"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Capitolul 3: Inmultirea"
+        android:textColor="@color/black"
+        android:background="@drawable/btnround"
+        app:backgroundTint="@color/inmultire"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+
+    <Button
+        android:id="@+id/btnImpartire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnInmultire"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnround"
+        android:text="Capitolul 4: Impartirea"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/impartire"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <Button
+        android:id="@+id/btnBackToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnImpartire"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btnround"
+        android:text="Inapoi la meniul principal"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/buttonback"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_below="@id/Title_Teorie"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/study" />
+
+
+</RelativeLayout>

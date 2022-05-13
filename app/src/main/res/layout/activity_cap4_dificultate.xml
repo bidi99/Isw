@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/TitleImpartire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Impartirea"
+        android:textColor="@color/impartire"
+        android:textSize="40dp" />
+
+
+    <TextView
+        android:id="@+id/alegere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TitleImpartire"
+        android:layout_marginTop="80dp"
+        android:text="Alegeti dificultatea:"
+        android:textColor="@color/impartire"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/usor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alegere"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btnround"
+        android:text="Usor"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:backgroundTint="@color/green" />
+
+    <Button
+        android:id="@+id/mediu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usor"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:background="@drawable/btnround"
+        app:backgroundTint="@color/yellow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Mediu"
+        app:layout_constraintTop_toBottomOf="@+id/usor" />
+
+    <Button
+        android:id="@+id/greu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mediu"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:background="@drawable/btnround"
+        app:backgroundTint="@color/buttonback"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:text="greu"
+        app:layout_constraintTop_toBottomOf="@+id/mediu" />
+
+
+</RelativeLayout>

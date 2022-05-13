@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/AppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Matematica Interactiva"
+        android:textColor="@color/teal_200"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/AppTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/calculator" />
+
+
+    <Button
+        android:id="@+id/btnMediuDeExersare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnMediuDeInvatare"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btnround"
+        android:text="Mediu de exersare"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/pink"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+
+    <Button
+        android:id="@+id/btnMediuDeInvatare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/AppTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/btnround"
+        android:text="Mediu de invatare"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/green"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="531dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="439dp"
+        android:layout_toEndOf="@+id/btnMediuDeInvatare"
+        android:layout_toRightOf="@+id/btnMediuDeInvatare"
+        app:srcCompat="@drawable/study" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="516dp"
+        android:layout_toEndOf="@+id/btnMediuDeExersare"
+        android:layout_toRightOf="@+id/btnMediuDeExersare"
+        app:srcCompat="@drawable/pencil" />
+
+
+</RelativeLayout>

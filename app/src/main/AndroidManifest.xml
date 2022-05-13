@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.matematica_interactiva">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/calculator"
+        android:label="Matematica Interactiva"
+        android:roundIcon="@drawable/calculator"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Matematica_Interactiva">
+        <activity
+            android:name=".RezultatNegativv2"
+            android:exported="false" />
+        <activity
+            android:name=".RezultatPozitiv"
+            android:exported="false" />
+        <activity
+            android:name=".RezultatNegativ"
+            android:exported="false" />
+        <activity
+            android:name=".Cap4Dificultate"
+            android:exported="false" />
+        <activity
+            android:name=".Cap3Dificultate"
+            android:exported="false" />
+        <activity
+            android:name=".Cap2Dificultate"
+            android:exported="false" />
+        <activity
+            android:name=".Cap1Dificultate"
+            android:exported="false" />
+        <activity
+            android:name=".ExersareRandom"
+            android:exported="false" />
+        <activity
+            android:name=".ExersareCap4"
+            android:exported="false" />
+        <activity
+            android:name=".ExersareCap3"
+            android:exported="false" />
+        <activity
+            android:name=".ExersareCap2"
+            android:exported="false" />
+        <activity
+            android:name=".ExersareCap1"
+            android:exported="false" />
+        <activity
+            android:name=".MediuDeExersare"
+            android:exported="false" />
+        <activity
+            android:name=".MediuDeInvatare"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

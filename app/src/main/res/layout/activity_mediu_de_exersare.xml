@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MediuDeExersare">
+
+    <TextView
+        android:id="@+id/Title_Exersare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Mediu de Exersare"
+        android:textColor="@color/pink"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <Button
+        android:id="@+id/btnExAdunare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Title_Exersare"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/btnround"
+        android:text="Teste capitolul 1: Adunare"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/adunare" />
+
+
+    <Button
+        android:id="@+id/btnExScadere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnExAdunare"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnround"
+        android:text="Teste capitolul 2: Scaderea"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/scadere" />
+
+
+    <Button
+        android:id="@+id/btnExInmultire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnExScadere"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnround"
+        android:text="teste capitolul 3: Inmultirea"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/inmultire" />
+
+
+    <Button
+        android:id="@+id/btnExImpartire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnExInmultire"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnround"
+        android:text="Teste capitolul 4: Impartirea"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/impartire" />
+
+
+    <Button
+        android:id="@+id/btnExRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnExImpartire"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnround"
+        android:text="Test aleator"
+        android:textColor="@color/black"
+        app:backgroundTint="#8f21fc" />
+
+
+    <Button
+        android:id="@+id/btnExBackToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnExRandom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btnround"
+        android:text="Inapoi la meniul principal"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/buttonback"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="140dp"
+        android:layout_below="@id/Title_Exersare"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/pencil" />
+
+
+</RelativeLayout>

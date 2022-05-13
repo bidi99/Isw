@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/check"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/check"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Felicitari! Ai trecut testul!"
+        android:textColor="#a5eb78"
+        android:textSize="30dp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/cheer" />
+
+
+    <Button
+        android:id="@+id/buttonMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btnround"
+        android:text="Inapoi la Meniu"
+        android:textColor="@color/black"
+        app:backgroundTint="#a5eb78" />
+
+
+</RelativeLayout>
